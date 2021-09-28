@@ -1,0 +1,47 @@
+#logo
+{
+display: flex;
+justify-content: center;
+font-size: medium;	
+}
+#navigation
+li{
+	text-align: right;
+	font-family: verdana, sans-serif ;
+	color: black;
+	margin-top: 5px;
+	flex-direction: row;
+	justify-content: flex-end;
+	display: flex;
+	align-content: center;
+}	
+.flex-conteneur
+{
+	display: flex;
+justify-content: center;
+align-items: center;
+font-size: x-large;
+background-color: transparent;
+	border: none;
+	margin: none;
+	padding: 0px;
+	color: #171717;
+word-wrap: break-word;
+width: 100%;
+
+}
+#search-form
+{
+	background-color: transparent;
+	border: none;
+	margin: none;
+	padding: 0;
+	color: #black;
+word-wrap: break-word;
+}
+#search-buttons
+{
+	display: flex;
+justify-content: center;
+align-items: center;
+}
